@@ -3,11 +3,11 @@ import { useState, useRef } from 'react'
 import CustomInput from './CustomInput';
 
 function App() {
-const [value, setValue] = useState("red")
+const [value, setValue] = useState("default State value")
 const inputRef=useRef()
 
 const focus = () => {
-  inputRef.current.focus()
+  inputRef.current.ConsoleLog()
 }
 
   return (
