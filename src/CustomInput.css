@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+input {
+    border: none;
+    background-color: "red";
+    padding: .25em;
+    border-bottom: .1em solid black;
+    border-top-right-radius: .25em;
+    border-top-left-radius: .25em;
+}
